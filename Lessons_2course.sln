@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lessons_2course", "Lessons_2course\Lessons_2course.csproj", "{88151E1A-ED47-4DE6-8FE4-0D726C156EDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1_Algorithm", "Lessons_2course\Lesson1_Algorithm.csproj", "{88151E1A-ED47-4DE6-8FE4-0D726C156EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson2_OOP", "Lesson2_OOP\Lesson2_OOP.csproj", "{5E1BB40B-3FF4-4ACC-A17D-BA3DDB981C3A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{88151E1A-ED47-4DE6-8FE4-0D726C156EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88151E1A-ED47-4DE6-8FE4-0D726C156EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88151E1A-ED47-4DE6-8FE4-0D726C156EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1BB40B-3FF4-4ACC-A17D-BA3DDB981C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1BB40B-3FF4-4ACC-A17D-BA3DDB981C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1BB40B-3FF4-4ACC-A17D-BA3DDB981C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1BB40B-3FF4-4ACC-A17D-BA3DDB981C3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -33,7 +33,7 @@ namespace Lessons_2course
             }
 
 
-            Selection Sort
+          //  Selection Sort
 
             int temp2 = 0;
             int min;
@@ -59,20 +59,20 @@ namespace Lessons_2course
                 Console.WriteLine(item);
             }
 
-            Insertation Sort
+          //  Insertation Sort
 
-            int temp;
+            int temp3;
 
             for (int i = 0; i < arr.Length; i++)
             {
-                temp = arr[i];
+                temp3 = arr[i];
                 for (int j = i; j > 0; j--)
                 {
                     if (arr[j - 1] > arr[j])
                     {
-                        temp = arr[j - 1];
+                        temp3 = arr[j - 1];
                         arr[j - 1] = arr[j];
-                        arr[j] = temp;
+                        arr[j] = temp3;
                     }
                 }
             }

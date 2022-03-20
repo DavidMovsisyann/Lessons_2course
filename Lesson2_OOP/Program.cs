@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Lesson2_OOP
 {
     interface IDisel 

@@ -1,58 +1,55 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
+//namespace Task1
+//{
+//    class MyClass
+//    {
+//        public dynamic[] array = {1221,"SASA",'s' };
 
-namespace Task1
-{
-    class MyClass
-    {
-        public static int length = 0;
-        public dynamic[] array = new dynamic[length];
+//        public void AddElement(dynamic dynm)
+//        {
+//            int length2 = array.Length + 1;
+//            dynamic[] array2 = new dynamic[length2];
+//            for (int i = 0; i < array.Length; i++)
+//            {
+//                array2[i] = array[i];
+//            }
+//            array2[length2-1] = dynm;
 
-        public dynamic[] AddElement(dynamic[] arr, dynamic dynm)
-        {
-            int length2 = length + 1;
-            dynamic[] array2 = new dynamic[length2];
-            for (int i = 0; i < length; i++)
-            {
-                array2[i] = arr[i];
-            }
-            array2[length2-1] = dynm;
-             return array2;
-        }
+//        }
 
-        public dynamic GetByIndex(int i)
-        {
-            return array[i];
-        }
+//        public dynamic GetByIndex(int i)
+//        {
+//            return array[i];
+//        }
+//        public dynamic Remove(dynamic[] arr, dynamic dynm)
+//        {
 
-        public int GetLength()
-        {
-            return length;
-        }
-        public MyClass(int lengthh,dynamic[] array)
-        {
-         length = lengthh;
-         this.array = array;
-        }
+//            return null;
+//        }
 
-    }
-     class Program
-    {
-        static void Main(string[] args)
-        {
-            int length = int.Parse(Console.ReadLine());
-            dynamic[] array = {212,"sasa",new Program() };
+//        public int GetLength()
+//        {
+//            return array.Length;
+//        }
+        
 
-            MyClass myClass = new MyClass(length,array);
-            dynamic[] array2 = myClass.AddElement(array,"sa");
-            foreach (var item in array2)
-            {
-                Console.WriteLine(item);
-            }
-            Console.ReadLine();
-        }
-    }
-}
+//    }
+//     class Program
+//    {
+//        static void Main(string[] args)
+//        {
+            
+//         MyClass myClass = new MyClass();
+//            myClass.AddElement('1');
+//            foreach (var item in myClass.array)
+//            {
+//                Console.WriteLine(item);
+//            }
+//            Console.ReadLine();
+//        }
+//    }
+//}

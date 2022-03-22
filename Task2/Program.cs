@@ -11,7 +11,7 @@ namespace Task2
     {
 
     }
-    class Person : University
+    class Person 
     {
         string FirstName;
         string LastName;
@@ -30,6 +30,12 @@ namespace Task2
             this.LivingPlace = LivingPlace;
         }
     }
+                public class Parents : Person
+                {
+                    public Parents(string FirstName, string LastName, string FatherName, char Gender, int Age, string LivingPlace) : base(FirstName, LastName, FatherName, Gender, Age, LivingPlace)
+                    {
+                    }
+                }
 
     class University
     {
@@ -53,12 +59,6 @@ namespace Task2
         {
             public class Student : Person
             {
-                public class Parents : Person
-                {
-                    public Parents(string FirstName, string LastName, string FatherName, char Gender, int Age, string LivingPlace) : base(FirstName, LastName, FatherName, Gender, Age, LivingPlace)
-                    {
-                    }
-                }
                 public bool hasParent = true;
                 public StudentGroup studentGroup = new StudentGroup();
                 public Student(string FirstName, string LastName, string FatherName, char Gender, int Age, string LivingPlace, bool hasParent) : base(FirstName, LastName, FatherName, Gender, Age, LivingPlace)

@@ -18,7 +18,7 @@ namespace Task1
                 array2[i] = array[i];
             }
             array2[array.Length] = dynm;
-
+           
         }
 
         public dynamic GetByIndex(int i)
@@ -44,7 +44,7 @@ namespace Task1
         {
 
             MyClass myClass = new MyClass();
-            myClass.AddElement('1');
+            myClass.AddElement('1'); 
             foreach (var item in myClass.array)
             {
                 Console.WriteLine(item);

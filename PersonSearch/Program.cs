@@ -7,7 +7,7 @@ namespace PersonSearch
         static void Main(string[] args)
         {
             SearchandAdd search = new SearchandAdd();
-            search.AddPerson(1, "Jack", 20, 500, false, "", "90oo077");
+            search.CreatePerson(1, "Jack", 20, 500, false, "", "90oo077");
             search.GetBySalary(500);
            
         }

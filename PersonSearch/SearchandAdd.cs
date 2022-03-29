@@ -9,17 +9,32 @@ namespace PersonSearch
     internal class SearchandAdd : Datas
     {
 
-        public void AddPerson(int id, string name, int age, int salary, bool ismarried, string spouce, string car)
+        public void CreatePerson(int id, string name, int age, int salary, bool ismarried, string spouce, string car)
         {
-          CreatePerson(id,name,age,salary,ismarried,spouce,car);
+            Person.Id = id;
+            Person.Name = name;
+            Person.Age = age;
+            Person.Salary = salary;
+            Person.IsMarried = ismarried;
+            Person.Spouce = spouce;
+            Person.Car = car;
+
+            NameId.Add(id,name);
+            AgeId.Add(age, id);
+            SalaryId.Add(salary, id);
+            CarId.Add(car, id);
+            SpouceId.Add(spouce, id);
+            IsMarriedId.Add(ismarried, id);
         }
         public void GetByName(string name)
         {
-            
-            Console.WriteLine(NameId[name]);
+            int key = NameId.FirstOrDefault(x => x.Value == name).Key;
+            Console.WriteLine(NameId[key]);
         }
         public void GetBySalary(int salary)
         {
+            int key = NameId.FirstOrDefault(x => x.Value == salary).Key;
+
             Console.WriteLine(SalaryId[salary]);
         }
 

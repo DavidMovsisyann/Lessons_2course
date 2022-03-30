@@ -19,42 +19,45 @@ namespace PersonSearch
             Person.Spouce = spouce;
             Person.Car = car;
 
-            NameId.Add(id,name);
-            AgeId.Add(age, id);
-            SalaryId.Add(salary, id);
-            CarId.Add(car, id);
-            SpouceId.Add(spouce, id);
-            IsMarriedId.Add(ismarried, id);
+            IdName.Add(id, name);
+            IdAge.Add(id, age);
+            IdSalary.Add(id, salary);
+            IdCar.Add(id, car);
+            IdSpouce.Add(id, spouce);
+            IdIsMarried.Add(id, ismarried);
         }
         public void GetByName(string name)
         {
-            int key = NameId.FirstOrDefault(x => x.Value == name).Key;
-            Console.WriteLine(NameId[key]);
+            int key = IdName.FirstOrDefault(x => x.Value == name).Key;
+            Console.WriteLine($"Id is {key}");
         }
         public void GetBySalary(int salary)
         {
-            int key = NameId.FirstOrDefault(x => x.Value == salary).Key;
-
-            Console.WriteLine(SalaryId[salary]);
+            int key = IdSalary.FirstOrDefault(x => x.Value == salary).Key;
+            Console.WriteLine($"Id is {key}");
         }
 
         public void GetByAge(int age)
         {
-            Console.WriteLine(AgeId[age]);
+            int key = IdAge.FirstOrDefault(x => x.Value == age).Key;
+            Console.WriteLine($"Id is {key}");
         }
 
         public void GetBySpouce(string spouce)
         {
-            Console.WriteLine(SpouceId[spouce]);
+            int key = IdSpouce.FirstOrDefault(x => x.Value == spouce).Key;
+            Console.WriteLine($"Id is {key}");
         }
 
         public void GetByCar(string car)
         {
-            Console.WriteLine(CarId[car]);
+            int key = IdCar.FirstOrDefault(x => x.Value == car).Key;
+            Console.WriteLine($"Id is {key}");
         }
         public void GetByMarriege(bool ismarried)
         {
-            Console.WriteLine(IsMarriedId[ismarried]);
+            int key = IdIsMarried.FirstOrDefault(x => x.Value == ismarried).Key;
+            Console.WriteLine($"Id is {key}");
         }
     }
 }

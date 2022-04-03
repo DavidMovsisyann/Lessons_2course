@@ -8,7 +8,8 @@ namespace PersonSearch
         {
             SearchandAdd search = new SearchandAdd();
             search.CreatePerson(1, "Jack", 20, 500, false, "", "90oo077");
-            search.GetBySalary(500);        
+            search.GetBySalary(500);
+            search.Delegates(500,"a");
         }
     }
 }

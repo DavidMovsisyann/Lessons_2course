@@ -8,6 +8,8 @@ namespace PersonSearch
 {
     internal class SearchandAdd : Datas
     {
+        public delegate void Getstrs(string str);
+        public delegate void Getints(int a);
 
         public void CreatePerson(int id, string name, int age, int salary, bool ismarried, string spouce, string car)
         {
@@ -25,6 +27,18 @@ namespace PersonSearch
             IdCar.Add(id, car);
             IdSpouce.Add(id, spouce);
             IdIsMarried.Add(id, ismarried);
+
+            
+        }
+        public void Delegates(int a,string str)
+        {
+            Getstrs gets = GetByName;
+            gets += GetByCar;
+            gets+= GetBySpouce;
+           Getints getints = GetBySalary;
+            getints += GetByAge;
+            getints(a);
+            gets(str);
         }
         public void GetByName(string name)
         {
@@ -59,5 +73,8 @@ namespace PersonSearch
             int key = IdIsMarried.FirstOrDefault(x => x.Value == ismarried).Key;
             Console.WriteLine($"Id is {key}");
         }
+       
+        
+            
     }
 }

@@ -15,11 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task3\Task2.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonSearch", "PersonSearch\PersonSearch.csproj", "{7F1591EC-5834-4047-AC23-ACC5BAAA5119}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salary System", "Salary System\Salary System.csproj", "{576CA460-6396-4462-97AD-8EE04D4D2FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salary System", "Salary System\Salary System.csproj", "{576CA460-6396-4462-97AD-8EE04D4D2FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{9D825C9A-574E-4DC4-B3D3-F0D5B40253C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Files", "Files\Files.csproj", "{9D825C9A-574E-4DC4-B3D3-F0D5B40253C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriters", "FileStream\StreamWriters.csproj", "{3858D62A-C15A-4F2D-A1D5-E1B5D14E2BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamWriters", "FileStream\StreamWriters.csproj", "{3858D62A-C15A-4F2D-A1D5-E1B5D14E2BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 3", "Task 3\Task 3.csproj", "{4B19917B-9550-4798-8BC4-E9BA049FA976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPrototype", "CarPrototype\CarPrototype.csproj", "{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{3858D62A-C15A-4F2D-A1D5-E1B5D14E2BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3858D62A-C15A-4F2D-A1D5-E1B5D14E2BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3858D62A-C15A-4F2D-A1D5-E1B5D14E2BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B19917B-9550-4798-8BC4-E9BA049FA976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B19917B-9550-4798-8BC4-E9BA049FA976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B19917B-9550-4798-8BC4-E9BA049FA976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B19917B-9550-4798-8BC4-E9BA049FA976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

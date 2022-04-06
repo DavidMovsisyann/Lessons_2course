@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 3", "Task 3\Task 3.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarPrototype", "CarPrototype\CarPrototype.csproj", "{B3F536CC-BDA8-47EE-A1C2-B6E1FCD3EE04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Currency Calculator", "Currency Calculator\Currency Calculator.csproj", "{C6BBE816-3335-4DB6-936A-ABA848B72F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Currency Calculator", "Currency Calculator\Currency Calculator.csproj", "{C6BBE816-3335-4DB6-936A-ABA848B72F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "Task4\Task4.csproj", "{E0E2BE79-6F24-47B5-B0EC-2E59009CD0E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{C6BBE816-3335-4DB6-936A-ABA848B72F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6BBE816-3335-4DB6-936A-ABA848B72F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6BBE816-3335-4DB6-936A-ABA848B72F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E2BE79-6F24-47B5-B0EC-2E59009CD0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E2BE79-6F24-47B5-B0EC-2E59009CD0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E2BE79-6F24-47B5-B0EC-2E59009CD0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E2BE79-6F24-47B5-B0EC-2E59009CD0E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
